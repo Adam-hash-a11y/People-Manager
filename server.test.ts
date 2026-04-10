@@ -5,7 +5,7 @@ import { Server } from "node:http";
 describe("GET /", () => {
   let server: Server;
   beforeAll((done) => {
-    server = app.listen(3000);
+    server = app.listen(4000);
     done();
   });
 
@@ -27,7 +27,7 @@ describe("GET /", () => {
 describe("POST /adam", () => {
   let server: Server;
   beforeAll((done) => {
-    server = app.listen(3000);
+    server = app.listen(4000);
     done();
   });
 
